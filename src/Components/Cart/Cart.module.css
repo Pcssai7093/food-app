@@ -1,0 +1,22 @@
+.cartItems{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 40px;
+}
+
+.buton{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    border-radius: 5px;
+    /* margin: 10px auto; */
+}
